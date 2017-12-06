@@ -32,14 +32,20 @@ function getImgData() {
     var xhr = $.get(queryURL);
     xhr.done(function (data) {
         console.log("success got data", data);
-        // grab url information of gif
-        imgURL = data.data[0].images.downsized.url;
+        // create object for giphy data
+        var giphyDataArray = data.data;
+        // iterate through array and pull out the image URL
+        for ( i = 0; i < giphyDataArray.length; i++){
+            // grab url information of gif
+        var imgURL = giphyDataArray[i].images.downsized.url;
         console.log("imgURL:", imgURL);
         // place image in html document
         var img = $("<img>");
         img.addClass("downloaded-images");
         img.attr("src", imgURL);
         $(buttonClass).append(img);
+        }
+        
     });
 
 }
