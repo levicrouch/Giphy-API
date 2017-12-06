@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Adding bootstratp 3.3.7 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Adding jquery 3.2.1 reference -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style/style.css">
     <title>Giphy-API</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img id="brand" alt="Giphy Logo" src="assets/images/giphy-powered-by-100px.gif">
+                    </a>
+                    <div class="col-sm-4">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">Go!</button>
+                                </span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="button-landing">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="images"></div>
+            </div>
+        </div>
+    </div>
+<script src="assets/javascript/app.js"></script>
 </body>
+
 </html>
