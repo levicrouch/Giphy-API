@@ -7,33 +7,35 @@
 .downloaded-image {
     margin-right: 5px;
     margin-bottom: 5px;
-    max-height: 100%;
-    max-width: 100%;
-
-    
 }
 .images {
-    margin-top: 20px;
+    display: block;
+    margin: auto;
+    position: relative;
     float: left;
-    max-height: 25%;
-
+    width:  33%;
+    height: auto;
 }
 .navbar {
     height: 65px;
     background-color: black;
     border: unset;
-    
 }
 .default-buttons {
     margin-right: 10px;
+    margin-top: 10px;
 }
 .col-sm-12 {
     top: 15px;
 }
 .thumbnail {
-    padding: 10px;
-    max-height: 100%;
-    
+    display: block;
+    margin-top: auto;
+    position: relative;
+    float: left;
+    width:  100%;
+    height: auto;
+    position: relative;
 }
 
 #image-row{
@@ -47,4 +49,12 @@ body {
 }
 .input-group {
 margin-top: 15px;
+}
+.container-fluid{
+    padding-left: 170px;
+}
+#button-column{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
