@@ -1,9 +1,50 @@
 #brand {
     height: 60px;
     width: 40px;
+    position: relative;
+    top: -15px;
 }
-/* .downloaded-images {
-    max-height: 200px;
-    max-width: 200px;
+.downloaded-image {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    max-height: 100%;
+    max-width: 100%;
+
+    
+}
+.images {
+    margin-top: 20px;
+    float: left;
+    max-height: 25%;
+
+}
+.navbar {
+    height: 65px;
     background-color: black;
-} */
+    border: unset;
+    
+}
+.default-buttons {
+    margin-right: 10px;
+}
+.col-sm-12 {
+    top: 15px;
+}
+.thumbnail {
+    padding: 10px;
+    max-height: 100%;
+    
+}
+
+#image-row{
+    display: block;
+    margin-top: 30px;
+    clear: both;
+    
+}
+body {
+    background-color: black;
+}
+.input-group {
+margin-top: 15px;
+}
