@@ -10,3 +10,5 @@ load the page and several pre-defined buttons of cute animals are available to c
 To add a new animal or other topic, enter the the name or topic into the "Search for.." input box and click "Go!"
 
 The new topic is loaded with the other buttons. Click the topic you like, and 10 more Giphy images will load in the page below.
+
+Once the images load, they will be static. Click the desired image to see the animation!
