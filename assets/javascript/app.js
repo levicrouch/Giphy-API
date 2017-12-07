@@ -19,7 +19,7 @@ $(document).ready(function () {
         // capture search data from button:
         $(imageRowID).empty();
         var query = $(this).attr("data-query");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + query + "&api_key=" + apiKey + "&limit=" + maxNumberOfImages;
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + query + "&api_key=" + apiKey + "&limit=" + maxNumberOfImages;
         var xhr = $.get(queryURL);
         xhr.done(function (data) {
             // iterate through array and pull out the image URL
